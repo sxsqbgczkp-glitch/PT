@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elevate with Alex | Coaching + Investment Insights</title>
+    <meta
+      name="description"
+      content="Personal training, life coaching, and daily investment analysis to help you build strength, clarity, and wealth."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <nav class="nav container">
+        <a href="#top" class="brand">Elevate with Alex</a>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#insights">Investment Insights</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="container hero-content">
+        <p class="badge">Personal Training • Life Coaching • Daily Market Analysis</p>
+        <h1>Build a stronger body, focused mind, and smarter financial future.</h1>
+        <p>
+          I help busy professionals transform their habits through personalized coaching and
+          practical, data-backed daily investment breakdowns.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">Book a Strategy Call</a>
+          <a class="btn btn-secondary" href="#insights">View Today's Market Note</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container" id="services">
+        <h2>How I can help you</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Personal Training</h3>
+            <p>
+              Goal-specific fitness plans focused on fat loss, strength, mobility, and sustainable
+              habits that fit your real schedule.
+            </p>
+            <ul>
+              <li>1:1 virtual or in-person sessions</li>
+              <li>Customized weekly programming</li>
+              <li>Nutrition and accountability check-ins</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Life Coaching</h3>
+            <p>
+              Clarify your vision, break through limiting patterns, and create clear systems for
+              confidence, discipline, and balance.
+            </p>
+            <ul>
+              <li>Mindset and performance coaching</li>
+              <li>Goal setting and habit design</li>
+              <li>Career and lifestyle alignment support</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Daily Investment Analysis</h3>
+            <p>
+              Receive concise market updates and educational trade ideas designed to help you make
+              better-informed investment decisions.
+            </p>
+            <ul>
+              <li>Daily pre-market and post-market notes</li>
+              <li>Macro and sector trend summaries</li>
+              <li>Risk-first framework and watchlist updates</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt" id="insights">
+        <div class="container">
+          <h2>Today's Market Snapshot</h2>
+          <p class="section-intro">
+            Updated automatically each day to reflect your most recent advisory note.
+          </p>
+          <div class="market-panel">
+            <div>
+              <h3 id="today-date">Loading date...</h3>
+              <p id="market-summary">
+                U.S. indices are mixed with continued volatility around rates and earnings guidance.
+                Focus remains on risk management and disciplined entries.
+              </p>
+            </div>
+            <div class="market-points">
+              <h4>Focus Areas</h4>
+              <ul>
+                <li>Large-cap AI momentum vs. valuation risk</li>
+                <li>Defensive sectors showing relative strength</li>
+                <li>Watch treasury yields and USD trend</li>
+              </ul>
+            </div>
+          </div>
+          <p class="disclaimer">
+            Disclaimer: Content is for educational and informational purposes only and is not
+            financial advice.
+          </p>
+        </div>
+      </section>
+
+      <section class="section container" id="about">
+        <h2>Why clients choose Elevate with Alex</h2>
+        <p>
+          My approach combines fitness science, behavioral coaching, and market literacy so you can
+          improve performance in every major area of life. The process is practical, personalized,
+          and built for long-term results.
+        </p>
+        <div class="stats">
+          <div class="stat"><span>8+</span><p>Years coaching clients</p></div>
+          <div class="stat"><span>300+</span><p>Personalized plans delivered</p></div>
+          <div class="stat"><span>Daily</span><p>Investment notes published</p></div>
+        </div>
+      </section>
+
+      <section class="section alt" id="contact">
+        <div class="container contact-wrap">
+          <div>
+            <h2>Let's build your next chapter.</h2>
+            <p>
+              Ready to start? Share your goals and I’ll send a tailored coaching and insights plan.
+            </p>
+          </div>
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Primary interest
+              <select name="interest" required>
+                <option value="">Select one...</option>
+                <option>Personal Training</option>
+                <option>Life Coaching</option>
+                <option>Investment Analysis Membership</option>
+                <option>Combination Program</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Tell me about your goals..."></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Elevate with Alex. All rights reserved.</p>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
